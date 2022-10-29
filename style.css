@@ -48,3 +48,12 @@ body{
     font-weight: 500;
     margin-bottom:10px;
 }
+.blueBg .box button{
+    background: #fff;
+    color: #333;
+    padding: 10px 20px;
+    font-size:16px;
+    font-weight:500;
+    border: none;
+    cursor: pointer;
+}
