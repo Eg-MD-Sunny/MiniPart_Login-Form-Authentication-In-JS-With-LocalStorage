@@ -9,7 +9,7 @@ body{
     display:flex;
     justify-content:center;
     text-align:center;
-    height:100vh;
+    min-height:100vh;
     background-color:#03a9f4;
     transition: 0.5s;
 }
@@ -25,6 +25,23 @@ body{
     top:40px;
     width:100%;
     height: 420px;
+    display:flex;
+    justify-content:center;
+    text-align:center;
     background-color:rgba(255,255,255,0.2);
     box-shadow:0 5px 45px rgba(0,0,0,0.15);
+    
+}
+.blueBg .box{
+    position:relative;
+    border:1px solid #fff;
+    width:50%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.blueBg h2{
+    color:#fff;
 }
