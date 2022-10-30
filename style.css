@@ -15,11 +15,12 @@ body{
 }
 .container{
     position:relative;
-    height:800px;
+    height:500px;
     width:500px;
     margin:20px;
     /* border:1px solid #fff; */
 }
+
 .blueBg{
     position:absolute;
     top:40px;
@@ -56,4 +57,22 @@ body{
     font-weight:500;
     border: none;
     cursor: pointer;
+    
+}
+.fromBx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:50%;
+    height:100%;
+    background-color: #fff;
+    z-index: 1000;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    box-shadow: 0 5px 45px rgba(0,0,0,0.25);
+    transition:0.35s ease-in-out;
+}
+.fromBx.active{
+    left:50%;
 }
