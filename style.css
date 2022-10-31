@@ -61,18 +61,22 @@ body{
 }
 .fromBx{
     position: absolute;
-    top: -10%;
+    top: 0;
+    left: 0;
+    width:55%;
+    height:100%;
+    /* top: -10%;
     left: -149px;
     width:400px;
-    height:500px;
+    height:500px; */
     background-color: #fff;
     z-index: 1000;
     display:flex;
     justify-content:center;
     align-items:center;
     box-shadow: 0 5px 45px rgba(0,0,0,0.25);
-    transition:0.35s ease-in-out;
+    transition:0.5s ease-in-out;
 }
 .fromBx.active{
-    left:50%;
+    left:52%;
 }
