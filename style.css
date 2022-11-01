@@ -96,3 +96,9 @@ body.active{
     display: flex;
     flex-direction: column;
 }
+.fromBx .form form h3{
+    font-size:1.5em;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
