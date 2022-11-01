@@ -83,3 +83,16 @@ body.active{
 .fromBx.active{
     left:52%;
 }
+
+.fromBx .form{
+    position:absolute;
+    left:0;
+    width:100%;
+    padding: 50px;
+    transition: 0.5s;
+}
+.fromBx .form form{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
