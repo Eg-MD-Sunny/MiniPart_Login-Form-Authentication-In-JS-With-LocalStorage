@@ -142,4 +142,29 @@ body.active{
     color: #333;
 }
 
-
+/* Responsive Style */
+@media(max-width: 991px){
+    .container{
+        max-width:400px;
+        height: 650px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .container .blueBg{
+        top:0px;
+        height: 100%;
+    }
+    .fromBx{
+        width:100%;
+        height:500px;
+        top:0;
+        box-shadow: none;
+    }
+    .blueBg .box{
+        position:absolute;
+        width: 100%;
+        height: 150px;
+        bottom: 0;
+    }
+}
