@@ -167,4 +167,11 @@ body.active{
         height: 150px;
         bottom: 0;
     }
+    .signin{
+        top:0px;
+    }
+    .fromBx.active{
+        left:0;
+        top:150px;
+    }
 }
