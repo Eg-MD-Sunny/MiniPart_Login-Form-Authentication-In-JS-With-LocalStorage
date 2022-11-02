@@ -135,6 +135,9 @@ body.active{
     cursor:pointer;
     color:#fff;
 }
+.fromBx .form form input[type="submit"]{
+    background-color:f43648;
+}
 .fromBx .form form .forgot{
     color: #333;
 }
