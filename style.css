@@ -95,16 +95,18 @@ body.active{
 }
 .fromBx.active .signinFrom{
     left:-100%;
+    transition-delay: 0s;
 }
 .fromBx .signinFrom{
     transition-delay: 0.25s;
 }
 .fromBx .signupFrom{
     left:100%;
+    transition-delay: 0s;
 }
 .fromBx.active .signupFrom{
     left:0;
-    transition-delay: 0s;
+    transition-delay: 0.25s;
 }
 .fromBx .form form{
     width:100%;
