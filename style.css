@@ -10,6 +10,7 @@ body{
     justify-content:center;
     text-align:center;
     min-height:100vh;
+    /* background-color:#0abcdb; */
     background-color:#03a9f4;
     transition: 0.5s;
 }
@@ -79,6 +80,7 @@ body.active{
     align-items:center;
     box-shadow: 0 5px 45px rgba(0,0,0,0.25);
     transition:0.5s ease-in-out;
+    overflow: hidden;
 }
 .fromBx.active{
     left:52%;
@@ -91,6 +93,12 @@ body.active{
     padding: 50px;
     transition: 0.5s;
 }
+.fromBx.active .signinFrom{
+    left:-100%;
+}
+.fromBx .signinFrom{
+    transition-delay: 0.25s;
+}
 .fromBx .form form{
     width:100%;
     display: flex;
@@ -101,4 +109,20 @@ body.active{
     color: #333;
     margin-bottom: 20px;
     font-weight: 500;
+}
+.fromBx .form form input{
+    width:100%;
+    margin-bottom:20px;
+    padding: 10px;
+    outline:none;
+    font-size:16px;
+    border:1px solid rgb(201, 201, 201);
+    border-radius:3px;
+}
+.fromBx .form form input[type="submit"]{
+    background-color:#03a9f4;
+    border:none;
+    max-width: 100px;
+    cursor:pointer;
+    color:#fff;
 }
