@@ -11,7 +11,11 @@ body{
     text-align:center;
     min-height:100vh;
     /* background-color:#0abcdb; */
-    background-color:#03a9f4;
+    /* background-color:#03a9f4; */
+    background: #457fca;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5691c8, #457fca);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5691c8, #457fca); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     transition: 0.5s;
 }
 body.active{
@@ -133,7 +137,10 @@ body.active{
     border-radius:3px;
 }
 .fromBx .form form input[type="submit"]{
-    background-color:#03a9f4;
+    /* background-color:#03a9f4; */
+    background: #457fca;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5691c8, #457fca);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5691c8, #457fca); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border:none;
     max-width: 100px;
     cursor:pointer;
