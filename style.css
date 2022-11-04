@@ -140,7 +140,11 @@ body.active{
     color:#fff;
 }
 .fromBx.active .signupFrom input[type="submit"]{
-    background-color:#f43648;
+    /* background-color:#f43648; */
+    background: #654ea3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .fromBx .form form .forgot{
     color: #333;
