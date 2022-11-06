@@ -4,11 +4,19 @@ const fromBx = document.querySelector('.fromBx');
 const body = document.querySelector('body');
 
 //----Input Value Collect
-let name,email,password,confirmPassword;
-name = document.getElementById('name').Value;
-email = document.getElementById('email').Value;
-password = document.getElementById('password').Value;
-confirmPassword = document.getElementById('confirmPassword').Value;
+function save(){
+    let name,email,password,confirmPassword;
+    name = document.getElementById('name').Value;
+    email = document.getElementById('email').Value;
+    password = document.getElementById('password').Value;
+    confirmPassword = document.getElementById('confirmPassword').Value;
+
+//Set Value Local Storage
+    localStorage.setItem('name',name);
+    localStorage.setItem('email',email);
+    localStorage.setItem('password',password);
+    localStorage.setItem('confirmPassword',confirmPassword);
+}
 
 
 
