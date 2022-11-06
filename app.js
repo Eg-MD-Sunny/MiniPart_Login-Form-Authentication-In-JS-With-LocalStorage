@@ -16,6 +16,10 @@ function save(){
     localStorage.setItem('email',email);
     localStorage.setItem('password',password);
     localStorage.setItem('confirmPassword',confirmPassword);
+
+//Clear Input Values
+    name.value='';
+
 }
 
 
