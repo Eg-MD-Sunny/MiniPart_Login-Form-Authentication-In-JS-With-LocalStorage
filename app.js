@@ -6,10 +6,10 @@ const body = document.querySelector('body');
 //----Input Value Collect
 function save(){
     let name,email,password,confirmPassword;
-    name = document.getElementById('name').Value;
-    email = document.getElementById('email').Value;
-    password = document.getElementById('password').Value;
-    confirmPassword = document.getElementById('confirmPassword').Value;
+    name = document.getElementById('name').value;
+    email = document.getElementById('email').value;
+    password = document.getElementById('password').value;
+    confirmPassword = document.getElementById('confirmPassword').value;
 
 //Set Value Local Storage
     localStorage.setItem('name',name);
