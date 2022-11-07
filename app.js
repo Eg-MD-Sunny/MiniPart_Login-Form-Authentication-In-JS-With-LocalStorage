@@ -15,20 +15,25 @@ saveBtn.addEventListener('click',function handlerClick(event){
     event.preventDefault();
 
     //----Input Value Collect
-      let name,email,password,confirmPassword;
-      name = document.getElementById('name').value;
+      let nameValue,email,password,confirmPassword;
+      nameValue = document.getElementById('name').value;
       email = document.getElementById('email').value;
       password = document.getElementById('password').value;
       confirmPassword = document.getElementById('confirmPassword').value;
-  
+ 
+
     //Set Value Local Storage
-      localStorage.setItem('name',name);
+      localStorage.setItem('name',nameValue);
       localStorage.setItem('email',email);
       localStorage.setItem('password',password);
       localStorage.setItem('confirmPassword',confirmPassword);
+
+    const inputs = document.querySelectorAll('#nameValue')
+    inputs.forEach(input=>{
+        input.value='';
+    })  
   
-    //Clear Input Values
-      name.value='';
+    
 })
 
 
