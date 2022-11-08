@@ -28,10 +28,10 @@ saveBtn.addEventListener('click',function handlerClick(event){
       localStorage.setItem('password',password);
       localStorage.setItem('confirmPassword',confirmPassword);
 
-    const inputs = document.querySelectorAll('#nameValue')
-    inputs.forEach(input=>{
-        input.value='';
-    })  
+    // const inputs = document.querySelectorAll('#nameValue')
+    // inputs.forEach(input=>{
+    //     input.value='';
+    // })  
   
     
 })
